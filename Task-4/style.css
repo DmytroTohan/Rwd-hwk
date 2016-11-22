@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin: 16px 8px;
+    height: 100%;
+}
+
+.level1-left {
+    height: 16vh;
+    background: #0bdaed;
+}
+
+.level1-right {
+    height: 16vh;
+    background: #edc70b;
+}
+
+.level2-center {
+    margin-top: 16px;
+    height: 44vh;
+    background: #ed740b;
+}
+
+.level3-left, .level3-center, .level3-right {
+    margin-top: 16px;
+    height: 30vh;
+    background: #eef215;
+}
+
+.level4-center {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    height: 16vh;
+    background: #f442a1;
+}
