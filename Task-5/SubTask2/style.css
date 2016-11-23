@@ -3,12 +3,13 @@
     padding: 0;
 }
 
-body {
-    display: flex;
-    height: 50vh;
-    justify-content: center;
-}
-
-a:before {
-    content: url('http://from-ua.com/upload/521176e7cd83a81.jpg');
+.icon:before
+{
+    content: "";
+    display: block;
+    content: url("logo-oracle.png");
+    width: 150px;
+    height: 20px;
+    float: left;
+    margin-right: 1px;
 }
