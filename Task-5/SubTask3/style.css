@@ -1,0 +1,34 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    margin: 20px;
+}
+
+.cont1 {
+    margin: 10px;
+}
+
+.cont2 {
+    margin: 20px;
+}
+
+[role=navigation] > span a {
+	  font-size: 15px;
+	  font-weight: bold;
+    color: blue;
+    background: #cccbc1;
+}
+
+div div a + p + p {
+	  font-style: italic;
+    background: #baad1d;
+}
+
+div div p:nth-child(3){
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
