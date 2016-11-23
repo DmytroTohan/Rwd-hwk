@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 50vh;
+    background: #c0e4f7;
+    justify-content: center;
+}
+
+a:after {
+    content: url('http://www.bugaga.ru/uploads/posts/2013-03/1364465535_stoimost-logotipov-5.jpg');
+}
