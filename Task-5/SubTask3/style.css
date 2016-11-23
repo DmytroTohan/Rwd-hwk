@@ -23,6 +23,12 @@
     background: #cccbc1;
 }
 
+[role=navigation] > span a:not([href^=mailto]) {
+    font-size: 20px;
+    font-style: italic;
+    color: green;
+}
+
 div div a + p + p {
 	  font-style: italic;
     background: #baad1d;
