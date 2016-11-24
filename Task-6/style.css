@@ -23,13 +23,13 @@
 @media (min-width: 1024px)
 {
 
-.sec-top {
-	margin-top: 8px;
-	background: orange;
-	height: 30vh;
-	width: 100%;
-	margin-bottom: 8px;
-}
+	.sec-top {
+		margin-top: 8px;
+		background: orange;
+		height: 30vh;
+		width: 100%;
+		margin-bottom: 8px;
+	}
 	.cont-box
 	{
 		width: 77%;
@@ -48,8 +48,6 @@
 		margin-bottom: 8px;
 	}
 	.cont-green {
-    display: flex;
-    justify-content: flex-end;
 		background: green;
 		height: 55vh;
 		width: 23%;
@@ -64,10 +62,7 @@
 		order:2;
 		margin-right: 8px;
 	}
-	.cont-blue
-	{
-    display: flex;
-    /*justify-content:;*/
+	.cont-blue {
 		background:blue;
 		height: 50vh;
 		order:3;
@@ -76,15 +71,15 @@
 	}
 }
 
-	@media (min-width: 768px) and (max-width: 1023px)
+@media (min-width: 768px) and (max-width: 1023px)
 {
 	.sec-top {
-	margin-top: 8px;
-	background: orange;
-	height: 30vh;
-	width: 70%;
-	margin-bottom: 8px;
-  margin-right: 4px;
+		margin-top: 8px;
+		background: orange;
+		height: 30vh;
+		width: 70%;
+		margin-bottom: 8px;
+  		margin-right: 4px;
 	}
 
 	.cont-box
@@ -103,8 +98,6 @@
 		margin-bottom: 8px;
 	}
 	.cont-green{
-    display: flex;
-    justify-content: flex-end;
 		width: 29%;
 		background: green;
 		height: 30vh;
@@ -142,11 +135,11 @@
 	}
 	.cont-box .box:first-child
 	{
-	margin-top: 5px;
-	display:flex;
-	width: 100%;
-	height: 40vh;
-	background-color: yellow;
+		margin-top: 5px;
+		display:flex;
+		width: 100%;
+		height: 40vh;
+		background-color: yellow;
 	}
 
 	.sec-top
