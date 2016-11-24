@@ -1,135 +1,145 @@
-.container {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+.flex-container
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
+
 .top {
-		background:red;
-		height: 20vh;
-		width: 100%;
+	background:red;
+	height: 20vh;
+	width: 100%;
+
 }
 
 .cont-box .box {
-		display: none;
-		justify-content: center;
-		align-items: center;
-}
-
-@media (min-width: 768px) and (max-width: 1023px)
-{
-.sec-top {
-	  margin-top: 1%;
-	  background: orange;
-	  height: 30vh;
-	  width: 70%;
-	  margin-bottom: 1%;
-}
-
-.cont-box	{
-	  width: 100%;
-	  display: flex;
-	  flex-direction: row;
-	  flex-wrap: wrap;
-	  order: 2;
-}
-.cont-box .box:first-child {
-	  display: flex;
-	  width: 100%;
-	  height: 35vh;
-	  background-color: yellow;
-	  margin-bottom: 1%;
-}
-.green-box {
-	  width: 29%;
-	  background: green;
-	  height: 30vh;
-	  order:1;
-	  margin-top: 1%;
-	  margin-left: 1%;
-}
-
-.footer {
-	  background: pink;
-	  height: 55vh;
-	  width: 100%;
-	  order:3;
-}
-.blue-box {
-	  margin-top: 1%;
-	  background: blue;
-	  height: 28vh;
-	  width: 100%;
-	  order:3;
-}
+	display: none;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (min-width: 1024px) {
-
-.sec-top {
-		margin-top: 1%;
+	.sec-top {
+		margin-top: 8px;
 		background: orange;
 		height: 30vh;
 		width: 100%;
-		margin-bottom: 1%;
-}
-.cont-box {
+		margin-bottom: 8px;
+	}
+	.cont-box
+	{
 		width: 77%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		order: 1;
 	}
-.cont-box .box {
+	.cont-box .box
+	{
 		display: flex;
 		width: 49%;
 		background: yellow;
 		height: 35vh;
-		margin-right: 1%;
-		margin-bottom: 1%;
+		margin-right: 7px;
+		margin-bottom: 8px;
 	}
-.green-box {
+	.cont-green {
+    		display: flex;
+    		justify-content: flex-end;
 		background: green;
 		height: 55vh;
 		width: 23%;
 		order: 2;
 	}
 
-.footer {
+	.footer
+	{
 		background: pink;
 		width: 76%;
 		height: 60vh;
 		order:2;
-		margin-right: 1%;
+		margin-right: 8px;
 	}
-.blue-box {
+	.cont-blue
+	{
 		background:blue;
 		height: 50vh;
 		order:3;
 		width: 23%;
-		margin-top: -100px;
+		margin-top: -95px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.sec-top {
+		margin-top: 8px;
+		background: orange;
+		height: 30vh;
+		width: 70%;
+		margin-bottom: 8px;
+ 		margin-right: 4px;
+	}
+
+	.cont-box {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		order: 2;
+	}
+	.cont-box .box:first-child {
+		display: flex;
+		width: 100%;
+		height: 35vh;
+		background-color: yellow;
+		margin-bottom: 8px;
+	}
+	.cont-green{
+		display: flex;
+		justify-content: flex-end;
+		width: 29%;
+		background: green;
+		height: 30vh;
+		order:1;
+		margin-top: 8px;
+		margin-left: 2px;
+	}
+
+	.footer {
+		background: pink;
+		height: 55vh;
+		width: 100%;
+		order:3;
+	}
+	.cont-blue {
+		margin-top: 8px;
+		background: blue;
+		height: 28vh;
+		width: 100%;
+		order:4;
 	}
 }
 
 @media (max-width: 767px)
 {
-.cont-box {
+	.cont-box {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		order: 1;
 	}
-.cont-box .box:first-child {
-		margin-top: 1%;
+	.cont-box .box:first-child {
+		margin-top: 5px;
 		display:flex;
 		width: 100%;
 		height: 40vh;
 		background-color: yellow;
 	}
 
-.sec-top {
-		margin-top: 1%;
+	.sec-top {
+		margin-top: 5px;
 		order:2;
 		width: 100%;
 		background: orange;
@@ -137,27 +147,27 @@
 		order:2;
 	}
 
-.green-box	{
+	.cont-green {
 		background: green;
 		height: 40vh;
 		width: 100%;
-		margin-top: 1%;
+		margin-top: 5px;
 		order:3;
 
 	}
-.footer {
+	.footer {
 		background: pink;
 		height: 40vh;
 		width: 100%;
-		margin-top: 1%;
+		margin-top: 5px;
 		order:4;
 	}
-.blue-box {
+	.cont-blue
+	{
 		background: blue;
 		height: 40vh;
 		width: 100%;
-		margin-top: 1%;
+		margin-top: 5px;
 		order:5;
-
 	}
 }
